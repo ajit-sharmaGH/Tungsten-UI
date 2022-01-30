@@ -70,7 +70,7 @@ body {
     font-size: 1.409rem;
     font-weight: bolder;
     color: black;
-    text-align: right;
+    text-align: center;
     text-shadow: 1px 1px red;
 }
 
@@ -93,6 +93,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -8.6vh;
 }
 
 footer ul {
@@ -117,7 +118,7 @@ footer ul a i:hover {
     color: yellow;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     .navbar ul li {
         float: right;
         margin-right: 0rem;
@@ -126,5 +127,12 @@ footer ul a i:hover {
     }
     .navbar ul li a {
         margin-left: 0rem;
+    }
+    .navbar {
+        height: 3.5rem;
+    }
+    .landing-page_btn {
+        margin-top: 1.5rem;
+        margin-right: 0rem;
     }
 }
