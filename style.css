@@ -14,7 +14,7 @@ body {
     color: white;
     position: fixed;
     justify-content: space-between;
-    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
 }
 
 .navbar span {
@@ -28,8 +28,8 @@ body {
 .navbar ul li {
     float: right;
     margin-right: 1rem;
-    margin-top: 0.7rem;
-    font-size: 1.02rem;
+    margin-top: 0.6rem;
+    font-size: 1.03rem;
 }
 
 .navbar ul li a {
@@ -115,4 +115,16 @@ footer ul a i:hover {
     transform: translateY(-8px);
     transition: 0.5s;
     color: yellow;
+}
+
+@media screen and (max-width:700px) {
+    .navbar ul li {
+        float: right;
+        margin-right: 0.1rem;
+        margin-top: 0.4rem;
+        font-size: 1.01rem;
+    }
+    .navbar ul li a {
+        margin-left: 0rem;
+    }
 }
