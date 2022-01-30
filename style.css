@@ -1,0 +1,117 @@
+@import url(CSS/reset.css);
+body {
+    font-family: Lucida, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*navigation part styling*/
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #161718;
+    color: white;
+    position: fixed;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.navbar span {
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    border-top: 3px solid rgb(214, 7, 24);
+    border-left: 4px solid rgb(210, 224, 13);
+}
+
+.navbar ul li {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+}
+
+.navbar ul li a {
+    margin-left: 1rem;
+}
+
+#bg-img {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.83;
+}
+
+
+/*content part styling */
+
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.documentation-link {
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+}
+
+.documentation-link:hover {
+    color: yellow;
+}
+
+.paragraph {
+    width: 60%;
+    font-size: 1.409rem;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+    text-shadow: 1px 1px red;
+}
+
+.landing-page_btn {
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+
+.landing-page_btn a {
+    margin-left: 1rem;
+}
+
+
+/*footer part styling*/
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #161718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer ul a i {
+    font-size: 2rem;
+    color: white;
+    margin: 0 0.5rem;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+footer ul a i:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+    color: yellow;
+}
