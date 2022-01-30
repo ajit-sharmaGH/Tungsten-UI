@@ -5,8 +5,8 @@
 }
 
 .list {
-    /* padding: 0.6rem 1rem; */
-    font-family: cursive;
+    padding: 0.6rem 1rem;
+    font-family: monospace;
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
@@ -23,7 +23,7 @@
 .link,
 .btn {
     padding: 0.6rem 1rem;
-    font-family: cursive;
+    font-family: monospace;
     font-weight: bold;
     border: none;
     border-radius: 0.3rem;
