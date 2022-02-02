@@ -4,6 +4,14 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
+
+
     });
 };
 navSlide();
+
+
+// if (nav.style.display == "block") {
+//     nav.style.display = "none";
+
+// } else { nav.style.display = "block"; }

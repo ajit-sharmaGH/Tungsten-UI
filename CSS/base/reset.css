@@ -11,6 +11,14 @@ html {
     text-size-adjust: 100%;
 }
 
+
+/*navigation bar to  body margin container 15vh from 
+top */
+
+.nav-body-margin {
+    height: 12.5vh;
+}
+
 *,
 *::before,
 *::after {

@@ -1,6 +1,17 @@
 @import url("CSS/base/reset.css");
 @import url("CSS/base/color.css");
 @import url("CSS/base/nav.css");
+@import url("CSS/avatar.css");
+@import url("CSS/badge.css");
+@import url("CSS/alert.css");
+@import url("CSS/button.css");
+@import url("CSS/card.css");
+@import url("CSS/image.css");
+@import url("CSS/input.css");
+@import url("CSS/lists.css");
+@import url("CSS/navbar.css");
+@import url("CSS/toast.css");
+@import url("CSS/snackbar.css");
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
@@ -25,10 +36,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 95vh;
 }
 
-.link {
+.landing-page-link {
     padding: 0.6rem 1rem;
     font-family: monospace;
     font-weight: bold;
@@ -40,7 +51,7 @@ body {
     background-color: var(--white);
 }
 
-.link:hover {
+.landing-page-link:hover {
     background-color: var(--black);
     color: var(--white);
 }
@@ -61,7 +72,7 @@ body {
     color: var(--yellow);
 }
 
-.paragraph {
+.landing-page-paragraph {
     width: 60%;
     font-size: 1.409rem;
     font-weight: bolder;
@@ -87,8 +98,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 20.8vh; */
-    margin-top: -3.4rem;
+    margin-top: -4.5rem;
 }
 
 footer ul {
