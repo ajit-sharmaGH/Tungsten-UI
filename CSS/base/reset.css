@@ -11,6 +11,43 @@ html {
     text-size-adjust: 100%;
 }
 
+button {
+    border: none;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+}
+
+.btn-tertiary {
+    background-color: var(--tertiary);
+}
+
+.headings {
+    margin: 1rem 0rem 0rem 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.paragraphs {
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: center;
+    margin: 1rem 0rem 2rem 0rem;
+    font-weight: bold;
+}
+
 
 /*navigation bar to  body margin container 15vh from 
 top */
@@ -128,4 +165,17 @@ textarea {
 
 li {
     list-style: none;
+}
+
+.iframe-parent_class {
+    overflow: hidden;
+    width: 101%;
+    height: 35vh;
+    border: none;
+    overflow-x: hidden;
+}
+
+.iframe-child_class {
+    overflow: auto;
+    margin-left: 0.7rem;
 }
