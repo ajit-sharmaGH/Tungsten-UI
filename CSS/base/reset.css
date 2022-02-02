@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    text-size-adjust: 100%;
+}
+
+
+/*navigation bar to  body margin container 15vh from 
+top */
+
+.nav-body-margin {
+    height: 12.5vh;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* Blocks */
+
+iframe,
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Form */
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+
+/* Links */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+
+/* List */
+
+ul {
+    list-style: none;
+}
+
+
+/* Media */
+
+img,
+iframe {
+    block-size: auto;
+    max-inline-size: 100%;
+    overflow: hidden;
+    font-size: 100%;
+    vertical-align: baseline;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+/** form */
+
+button,
+input,
+select,
+textarea {
+    margin: 0
+}
+
+
+/* Iframe **/
+
+li {
+    list-style: none;
+}

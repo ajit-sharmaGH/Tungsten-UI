@@ -1,0 +1,133 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--nav-color);
+    font-family: 'Poppins', sans-serif;
+    min-height: 13vh;
+    position: fixed;
+    width: 100%;
+}
+
+.navLink-desktop-mode a {
+    color: white;
+    margin: 2rem;
+}
+
+.navLink-desktop-mode {
+    display: flex;
+}
+
+.nav-links li {
+    margin-bottom: 0.6rem;
+}
+
+nav ul li a {
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    border-radius: 0.4rem;
+}
+
+nav ul li a:hover {
+    color: var(--dark-primary);
+    background-color: var(--background);
+}
+
+nav ul li a:active {
+    color: var(--dark-primary);
+    background-color: var(--background);
+}
+
+.logo {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.logo h4 {
+    font-weight: bold;
+    margin-right: 6rem;
+    border-top: 3px solid var(--red);
+    border-left: 5px solid var(--yellow);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    top: -98vh;
+    background-color: var(--dark-primary);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    transform: translateY(0%);
+    transition: transform 0.5s ease-in;
+    /* z-index: 2; */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.burger :hover {
+    background-color: var(--primary);
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.nav-links-toggle a {
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+@media screen and (max-width:750px) {
+    body {
+        overflow-y: hidden;
+    }
+    .navLink-desktop-mode {
+        display: none;
+    }
+    .burger {
+        margin-right: -2rem;
+    }
+    .nav-links-toggle {
+        display: block;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:1200px) {
+    .nav-links {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .burger {
+        margin-right: 0rem;
+    }
+}
+
+.nav-active {
+    transform: translateY(95%);
+}
