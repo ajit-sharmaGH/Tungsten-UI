@@ -13,6 +13,9 @@ nav {
 .navLink-desktop-mode a {
     color: white;
     margin: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .navLink-desktop-mode {
@@ -41,7 +44,7 @@ nav ul li a:active {
 .logo {
     color: white;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .logo h4 {
@@ -78,7 +81,8 @@ nav ul li a:active {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-family: monospace;
+    font-size: 1.1rem;
 }
 
 .burger {
@@ -98,7 +102,6 @@ nav ul li a:active {
 
 .nav-links-toggle a {
     color: var(--primary);
-    font-weight: bolder;
 }
 
 @media screen and (max-width:750px) {

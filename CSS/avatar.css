@@ -9,21 +9,6 @@
     background-color: antiquewhite;
 }
 
-.headings {
-    margin: 1rem 0rem 0rem 0rem;
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--primary);
-}
-
-.paragraphs {
-    font-size: 1.3rem;
-    width: 70%;
-    text-align: center;
-    margin: 1rem 0rem 2rem 0rem;
-    font-weight: bold;
-}
-
 .avatar-container {
     display: flex;
     align-items: center;

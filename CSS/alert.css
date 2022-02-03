@@ -1,3 +1,52 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
+.alert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--background-color); */
+}
+
+.button-alert {
+    border: 1px solid var(--dark-primary);
+    padding: 2rem 10% 2rem 10%;
+    border-radius: 1rem;
+}
+
+.alert-btn-all {
+    margin: 0.3rem;
+    border: 2px solid var(--primary);
+    font-weight: bold;
+}
+
+.alert-btn-all:hover {
+    color: var(--primary);
+    background-color: var(--white);
+}
+
+.icon-alert {
+    height: 23vh;
+    width: auto;
+    padding: 1rem 20% 1rem 20%;
+    background-color: var(--dark-primary-text);
+    border: 1px solid var(--dark-primary);
+    border-radius: 0.5rem;
+}
+
+.icon-alert>p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.icon-alert>p>i {
+    margin: 0.7rem 0.5rem 1rem 0rem;
+}
+
+@media screen and (max-width:868px) {
+    .alert-btn-all {
+        display: block;
+        width: 11rem;
+    }
+}
