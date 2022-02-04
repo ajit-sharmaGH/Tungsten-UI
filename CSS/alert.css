@@ -32,8 +32,8 @@ alert buttons*/
 
 .icon-alert {
     width: auto;
-    padding: 1rem 20% 1rem 20%;
-    background-color: var(--dark-primary-text);
+    padding: 1rem 10% 1rem 10%;
+    /* background-color: var(--dark-primary-text); */
     border: 1px solid var(--dark-primary);
     border-radius: 0.5rem;
 }

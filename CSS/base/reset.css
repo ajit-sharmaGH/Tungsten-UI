@@ -234,11 +234,11 @@ li {
 
 .iframe-parent_class {
     overflow: hidden;
-    width: 100%;
-    height: 35vh;
+    width: 101% !important;
+    height: 30vh !important;
     border: none;
     overflow-x: hidden;
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 .iframe-child_class {
