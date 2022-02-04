@@ -8,19 +8,24 @@
     justify-content: center;
 }
 
+
+/*.button-alert is the parent class of .alert-btn which is a 
+common sub-child of all
+alert buttons*/
+
 .button-alert {
     border: 1px solid var(--dark-primary);
     padding: 2rem 10% 2rem 10%;
     border-radius: 1rem;
 }
 
-.alert-btn-all {
+.alert-btn {
     margin: 0.3rem;
     border: 2px solid var(--primary);
     font-weight: bold;
 }
 
-.alert-btn-all:hover {
+.alert-btn:hover {
     color: var(--primary);
     background-color: var(--white);
 }
@@ -43,7 +48,7 @@
 }
 
 @media screen and (max-width:868px) {
-    .alert-btn-all {
+    .alert-btn {
         display: block;
         width: 11rem;
     }
