@@ -11,14 +11,64 @@ html {
     text-size-adjust: 100%;
 }
 
+
+/*default styling for buttons*/
+
 button {
     border: none;
     padding: 0.3rem 1rem 0.3rem 1rem;
     font-size: 1.2rem;
     border-radius: 0.2rem;
     margin: 0.5rem;
-    display: inline-block;
     cursor: pointer;
+    font-family: monospace;
+    color: white;
+}
+
+.btn-green {
+    background-color: var(--green);
+}
+
+.btn-green:hover {
+    color: var(--green);
+    background-color: var(--tertiary);
+}
+
+.btn-blueviolet {
+    background-color: var(--blueviolet);
+}
+
+.btn-blueviolet:hover {
+    color: var(--blueviolet);
+    background-color: var(--tertiary);
+}
+
+.btn-red {
+    background-color: var(--red);
+}
+
+.btn-red:hover {
+    color: var(--red);
+    background-color: var(--tertiary);
+}
+
+.btn-outline {
+    color: var(--blueviolet);
+    border: 2px solid var(--blue);
+}
+
+.btn-outline:hover {
+    color: var(--blue);
+    border: 2px solid var(--blueviolet);
+}
+
+.btn-dark {
+    background-color: var(--dark);
+}
+
+.btn-dark:hover {
+    color: var(--dark);
+    background-color: var(--tertiary);
 }
 
 .btn-primary {
@@ -33,6 +83,10 @@ button {
     background-color: var(--tertiary);
 }
 
+.btn-background {
+    background-color: var(--background);
+}
+
 .headings {
     margin: 1rem 0rem 0rem 0rem;
     font-size: 2rem;
@@ -40,12 +94,28 @@ button {
     color: var(--primary);
 }
 
+.sub-headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--dark-secondary);
+    font-weight: bold;
+    margin: 0.4rem 0 0.4rem 0;
+}
+
 .paragraphs {
     font-size: 1.3rem;
     width: 70%;
     text-align: center;
-    margin: 1rem 0rem 2rem 0rem;
+    margin: 1rem 0rem 0.8rem 0rem;
     font-weight: bold;
+    border: 1px solid var(--dark-primary-text);
+    background-color: var(--primary-bg-color);
+    box-shadow: 1px 2px 2px 1px var(--dark-primary-text);
+    padding: 0rem 1rem 0rem 1rem;
+    color: var(--text-color);
 }
 
 
@@ -169,13 +239,57 @@ li {
 
 .iframe-parent_class {
     overflow: hidden;
-    width: 101%;
-    height: 35vh;
+    width: 101% !important;
+    height: 30vh !important;
     border: none;
     overflow-x: hidden;
+    margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 .iframe-child_class {
     overflow: auto;
-    margin-left: 0.7rem;
+    overflow-x: hidden;
+}
+
+.cross-icon {
+    color: var(--dark-primary);
+    font-size: 10px;
+    background-color: var(--dark-bold-text);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.text-icon-success-alert {
+    color: var(--green);
+    background-color: var(--success-bg-color);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text-icon-red-alert {
+    color: var(--red);
+    background-color: var(--danger-bg-color);
+    border-radius: 1rem;
+}
+
+.success-icon {
+    color: var(--green);
+}
+
+.danger-icon {
+    color: var(--red);
+}
+
+@media screen and (max-width:992px) {
+    .paragraphs {
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+    .headings {
+        font-size: 1.5rem;
+    }
+    .sub-headings {
+        font-size: 1.2rem;
+    }
 }

@@ -9,10 +9,10 @@
 }
 
 .badge {
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
-.badge p {
+.badge>p {
     background-color: var(--green);
     display: inline-block;
     padding: 0.5rem;
@@ -24,7 +24,7 @@
 
 .action-badge {
     top: -0.5rem;
-    left: -6rem;
+    left: -7rem;
 }
 
 .hide-badge {
@@ -41,7 +41,7 @@
 }
 
 .notification-badge {
-    left: -7rem;
+    left: -7.8rem;
     top: -0.5rem;
 }
 
