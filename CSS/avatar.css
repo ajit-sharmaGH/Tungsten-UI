@@ -6,19 +6,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
 }
 
 .avatar-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 1px 1px 1px var(--dark-primary);
-    width: 70%;
+    width: 65%;
     overflow: hidden;
     height: 22vh;
     border-radius: 0.5rem;
-    background-color: var(--dark-primary-text);
+    border: 1px solid var(--dark-primary-text);
+    background-color: var(--primary-bg-color);
+    box-shadow: 1px 2px 2px 1px var(--dark-primary-text);
 }
 
 .avatar>img {
