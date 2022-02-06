@@ -23,6 +23,8 @@ alert buttons*/
     margin: 0.3rem;
     border: 2px solid var(--primary);
     font-weight: bold;
+    color: var(--white);
+    font-size: 1rem;
 }
 
 .alert-btn:hover {
@@ -33,7 +35,6 @@ alert buttons*/
 .icon-alert {
     width: auto;
     padding: 1rem 10% 1rem 10%;
-    /* background-color: var(--dark-primary-text); */
     border: 1px solid var(--dark-primary);
     border-radius: 0.5rem;
 }
@@ -41,10 +42,11 @@ alert buttons*/
 .icon-alert>p {
     font-size: 1.2rem;
     font-weight: bold;
+    margin: 0.5rem;
 }
 
 .icon-alert>p>i {
-    margin: 0.7rem 0.5rem 1rem 0rem;
+    margin: 0.7rem 1rem 1rem 0rem;
 }
 
 @media screen and (max-width:868px) {

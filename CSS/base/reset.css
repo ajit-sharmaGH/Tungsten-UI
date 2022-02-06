@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    text-size-adjust: 100%;
+}
+
+button {
+    border: none;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-outline {
+    color: var(--blueviolet);
+    border: 2px solid var(--blueviolet);
+}
+
+.btn-outline:hover {
+    color: var(--tertiary);
+}
+
+.btn-dark {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+.btn-dark:hover {
+    color: var(--dark);
+    background-color: var(--tertiary);
+}
+
+.btn-green {
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.btn-green:hover {
+    color: var(--green);
+    background-color: var(--tertiary);
+}
+
+.btn-red {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.btn-red:hover {
+    color: var(--red);
+    background-color: var(--tertiary);
+}
+
+.btn-blueviolet {
+    color: var(--white);
+    background-color: var(--blueviolet);
+}
+
+.btn-blueviolet:hover {
+    color: var(--blueviolet);
+    background-color: var(--tertiary);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+}
+
+.btn-tertiary {
+    background-color: var(--tertiary);
+}
+
+.btn-background {
+    background-color: var(--background);
+}
+
+.headings {
+    margin: 1rem 0rem 0rem 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.sub-headings {
+    color: var(--dark-background);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.paragraphs {
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: center;
+    margin: 1rem 0rem 1rem 0rem;
+    font-weight: bold;
+    border: 1px solid var(--dark-primary-text);
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.text-icon-red-alert {
+    color: var(--red);
+    background-color: var(--danger-bg-color);
+    border-radius: 0.5rem;
+}
+
+.text-icon-success-alert {
+    color: var(--green);
+    background-color: var(--success-bg-color);
+    border-radius: 0.5rem;
+}
+
+.cross-icon {
+    font-size: 0.7rem;
+    background-color: var(--dark-bold-text);
+    padding: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.success-icon {
+    font-size: 1.3rem;
+}
+
+.danger-icon {
+    font-size: 1.3rem;
+}
+
+
+/*navigation bar to  body margin container 15vh from 
+top */
+
+.nav-body-margin {
+    height: 12.5vh;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* Blocks */
+
+iframe,
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Form */
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+
+/* Links */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+
+/* List */
+
+ul {
+    list-style: none;
+}
+
+
+/* Media */
+
+img,
+iframe {
+    block-size: auto;
+    max-inline-size: 100%;
+    overflow: hidden;
+    font-size: 100%;
+    vertical-align: baseline;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+/** form */
+
+button,
+input,
+select,
+textarea {
+    margin: 0
+}
+
+
+/* Iframe **/
+
+li {
+    list-style: none;
+}
+
+.iframe-parent_class {
+    overflow: hidden;
+    width: 101% !important;
+    max-height: 35vh !important;
+    border: none;
+    overflow-x: hidden;
+}
+
+.iframe-child_class {
+    overflow: auto;
+    margin: 0.7rem;
+}
+
+@media screen and (max-width:992px) {
+    .paragraphs {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .headings {
+        font-size: 1.5rem;
+    }
+    .sub-headings {
+        font-size: 1.1rem;
+    }
+}
