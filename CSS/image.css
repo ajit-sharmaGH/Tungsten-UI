@@ -1,3 +1,68 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
+.image-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.images {
+    background-image: url("../images/code.jpg");
+    background-size: 100%;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.img-sm-square {
+    width: 4rem;
+    height: 4rem;
+}
+
+.img-lg-square {
+    width: 6rem;
+    height: 6rem;
+}
+
+.img-lgr-square {
+    width: 8rem;
+    height: 8rem;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.img-sm-round {
+    width: 4rem;
+    height: 4rem;
+}
+
+.img-lg-round {
+    width: 6rem;
+    height: 6rem;
+}
+
+.img-lgr-round {
+    width: 8rem;
+    height: 8rem;
+}
+
+.img-responsive {
+    height: 30vh;
+    width: 35vw;
+    background-image: url("../images/tungsten3.jpg");
+    background-size: 100% 100%, cover;
+    margin: 0.5rem;
+}
