@@ -1,25 +1,51 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
-.avatar-content {
+
+/* .avatar-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .avatar-container {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    width: 70%;
+    justify-content: center; */
+    width: 90%;
     overflow: hidden;
-    height: 22vh;
     border-radius: 0.5rem;
-    border: 1px solid var(--dark-primary-text);
-    background-color: var(--primary-bg-color);
-    box-shadow: 1px 2px 2px 1px var(--dark-primary-text);
+    /* background-color: var(--primary-bg-color); */
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
 }
+
+.avatar-images {
+    /* background-image: url("../images/tungsten3.jpg"); */
+    background-size: cover;
+    border-radius: 50%;
+    margin: 1% 5%;
+    border: 1px solid var(--tertiary);
+}
+
+.avatar-sm {
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-lg {
+    height: 6rem;
+    width: 6rem;
+}
+
+.avatar-lgr {
+    height: 8rem;
+    width: 8rem;
+}
+
+
+/* 
+
 
 .avatar>img {
     border-radius: 50%;
@@ -82,4 +108,4 @@
     padding: 0.4rem;
     right: -6rem;
     top: -3rem;
-}
+} */
