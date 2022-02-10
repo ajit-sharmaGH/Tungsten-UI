@@ -1,27 +1,14 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
-
-/* .avatar-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
 .avatar-container {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     width: 90%;
     overflow: hidden;
     border-radius: 0.5rem;
-    /* background-color: var(--primary-bg-color); */
     box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
 }
 
 .avatar-images {
-    /* background-image: url("../images/tungsten3.jpg"); */
     background-size: cover;
     border-radius: 50%;
     margin: 1% 5%;
@@ -42,70 +29,3 @@
     height: 8rem;
     width: 8rem;
 }
-
-
-/* 
-
-
-.avatar>img {
-    border-radius: 50%;
-    margin: auto;
-    border: 1px solid var(--primary);
-}
-
-.small {
-    height: 3rem;
-    width: 3rem;
-}
-
-.large {
-    height: 5rem;
-    width: 5rem;
-    margin: 0.6rem;
-}
-
-.larger {
-    height: 7rem;
-    width: 7rem;
-}
-
-.profile-avatar {
-    height: 7rem;
-    width: 7rem;
-}
-
-.iframe-parent_class {
-    overflow: hidden;
-    width: 101%;
-    height: 35vh;
-    border: none;
-    overflow-x: hidden;
-}
-
-.iframe-child_class {
-    overflow: auto;
-    margin-left: 0.7rem;
-}
-
-.avatar-badge_larger,
-.avatar-badge_large,
-.avatar-badge_small {
-    position: relative;
-    padding: 0.2rem;
-    background-color: var(--tertiary);
-    border-radius: 50%;
-    top: -1rem;
-    font-weight: bold;
-    border: 1px solid var(--black);
-    display: inline-block;
-}
-
-.avatar-badge_large {
-    top: -5rem;
-}
-
-.avatar-badge_larger {
-    padding: 0.4rem;
-    right: -6rem;
-    top: -3rem;
-} */
