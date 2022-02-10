@@ -1,3 +1,37 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
+.snackbar-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.snackbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    width: 90%;
+    margin: 1rem;
+}
+
+.snackbar {
+    background-color: var(--dark-primary);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: 0.5rem;
+}
+
+.snackbar-text {
+    color: var(--white);
+}
+
+.snackbar-text>label {
+    border: 1px solid var(--blueviolet);
+    background-color: var(--blueviolet);
+    border-radius: 0.2rem;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    cursor: pointer;
+}

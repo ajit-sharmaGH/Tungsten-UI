@@ -1,0 +1,80 @@
+@import url("../CSS/base/reset.css");
+@import url("../CSS/base/color.css");
+@import url("../CSS/base/nav.css");
+@import url("../CSS/avatar.css");
+@import url("../CSS/badge.css");
+@import url("../CSS/alert.css");
+@import url("../CSS/button.css");
+@import url("../CSS/card.css");
+@import url("../CSS/image.css");
+@import url("../CSS/input.css");
+@import url("../CSS/snackbar.css");
+@import url("../CSS/lists.css");
+@import url("../CSS/toast.css");
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-secondary);
+}
+
+.header-part {
+    width: 100vw;
+    background-color: var(--nav-color);
+    height: 3.5rem;
+    position: fixed;
+    right: 0;
+}
+
+.body-container {
+    display: flex;
+}
+
+.sidebar-navigation {
+    width: 20rem;
+    background-color: var(--nav-color);
+    height: calc(100vh - 3.5rem);
+    overflow: auto;
+    margin-top: 3.5rem;
+}
+
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-link li {
+    margin-top: 0.2rem;
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.sidebar-link li:hover {
+    background-color: var(--tertiary);
+}
+
+.sidebar-navigation::-webkit-scrollbar {
+    width: 10px;
+}
+
+.main-container {
+    margin-top: 3rem;
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    overflow: auto;
+}
+
+.main-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .sidebar-navigation {
+        display: none;
+    }
+}
