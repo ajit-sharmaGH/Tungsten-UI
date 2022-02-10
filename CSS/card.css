@@ -63,7 +63,7 @@
 }
 
 .card-btn:hover {
-    color: hotpink;
+    color: var(--hotpink);
 }
 
 .card-heading {
@@ -111,6 +111,7 @@
     margin-top: -4rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
+    margin: -4rem 0rem 2rem 1rem;
 }
 
 .brand-name {
