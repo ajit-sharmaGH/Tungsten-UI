@@ -1,3 +1,148 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
+.card-body {
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    width: 90%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    background-color: var(--white);
+    margin: 1% 5% 1% 5%;
+    font-family: monospace;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.card-image {
+    height: 35vh;
+    width: 13rem;
+    border: 0.2rem solid var(--white);
+    border-radius: 0.5rem;
+}
+
+.card-badge {
+    position: inherit;
+    bottom: -2.2rem;
+    left: -3.2rem;
+    color: var(--red);
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--tertiary);
+    padding: 0 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+}
+
+.card-dismiss {
+    position: inherit;
+    right: -5.5rem;
+    bottom: -1.5rem;
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    background-color: var(--dark-primary-text);
+    color: var(--primary);
+}
+
+.dismiss-card-container {
+    opacity: 0.5;
+    border: 1px solid var(--black);
+}
+
+.card-btn {
+    width: 12.5rem;
+    padding: 3px 5px;
+    border-radius: 0;
+    margin: 2px 5px 2px 5px;
+    background-color: var(--pink);
+    color: var(--blueviolet);
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.card-btn:hover {
+    color: hotpink;
+}
+
+.card-heading {
+    margin-left: -4rem;
+    color: var(--tertiary);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.horizontal-card {
+    width: 18rem;
+}
+
+.horizontal-card-img-handler {
+    display: flex;
+}
+
+.card-horizontal-image {
+    height: 15vh;
+    width: 15rem;
+}
+
+.horizontal-card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-card-text p {
+    margin-left: 0.3rem;
+}
+
+.horizontal-card-footer {
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.card-subtext {
+    font-size: calc(1rem);
+    color: var(--dark-secondary);
+    margin: 2px 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.text-on-card {
+    margin-top: -4rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.brand-name {
+    margin-left: -3.8rem;
+    color: var(--danger-bg-color);
+    font-weight: 800;
+}
+
+.card-icon {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon label {
+    color: var(--blueviolet);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.card-icon i {
+    margin: 0 0.4rem 0 0.3rem;
+    cursor: pointer;
+    color: var(--blueviolet);
+}
+
+.card-icon i:hover {
+    color: var(--danger-bg-color);
+}
+
+.card-icon label:hover {
+    color: var(--danger-bg-color);
+}
