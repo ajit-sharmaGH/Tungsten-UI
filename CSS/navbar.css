@@ -1,3 +1,52 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
+.navigation-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    width: 90%;
+}
+
+.navigation-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--blueviolet);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.nav-logo {
+    margin-right: auto;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-logo:hover {
+    color: var(--danger-bg-color);
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.list li:hover {
+    background-color: var(--danger-bg-color);
+}
+
+.list li i {
+    margin-left: 5px;
+}

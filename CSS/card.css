@@ -70,7 +70,7 @@
     margin-left: -4rem;
     color: var(--tertiary);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .horizontal-card {
@@ -101,11 +101,10 @@
 }
 
 .card-subtext {
-    font-size: calc(1rem);
     color: var(--dark-secondary);
     margin: 2px 10px;
     text-align: left;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .text-on-card {
@@ -127,8 +126,8 @@
 
 .card-icon label {
     color: var(--blueviolet);
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 1rem;
     margin: 0.5rem;
     cursor: pointer;
 }
