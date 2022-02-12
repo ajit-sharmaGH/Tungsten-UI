@@ -18,8 +18,8 @@
 }
 
 .card-image {
-    height: 35vh;
-    width: 13rem;
+    height: 17rem;
+    width: 100%;
     border: 0.2rem solid var(--white);
     border-radius: 0.5rem;
 }
@@ -108,9 +108,6 @@
 }
 
 .text-on-card {
-    margin-top: -4rem;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
     margin: -4rem 0rem 2rem 1rem;
 }
 

@@ -12,13 +12,10 @@
 @import url("CSS/navbar.css");
 @import url("CSS/toast.css");
 @import url("CSS/snackbar.css");
+@import url("main/doc.css");
 body {
     font-family: sans-serif;
-    /* box-sizing: border-box; */
 }
-
-
-/*navigation part styling*/
 
 #bg-img {
     z-index: -1;

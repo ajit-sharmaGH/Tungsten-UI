@@ -1,3 +1,30 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
+.list-container {
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    width: 90%;
+}
+
+.list-container ul li,
+.list-container ol li {
+    margin: 1rem 2rem;
+    color: var(--hotpink);
+    font-weight: 600;
+}
+
+.roman li {
+    list-style-type: lower-roman;
+}
+
+.upper-alpha li {
+    list-style-type: upper-alpha;
+}
+
+.lower-alpha li {
+    list-style-type: lower-alpha;
+}
+
+.disc li {
+    list-style-type: disc;
+}
