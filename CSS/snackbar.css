@@ -1,31 +1,17 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
-.snackbar-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.snackbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
-    width: 90%;
-    margin: 1rem;
-}
-
 .snackbar {
     background-color: var(--dark-primary);
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem;
     margin: 1rem 0rem 1rem 0rem;
     border-radius: 0.5rem;
+    display: inline-block;
 }
 
 .snackbar-text {
     color: var(--white);
+    font-family: monster;
 }
 
 .snackbar-text>label {

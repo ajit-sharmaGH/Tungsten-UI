@@ -1,12 +1,6 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
-.input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .input-contents {
     border: 2px solid var(--dark-primary-text);
     padding: 1rem 2rem;

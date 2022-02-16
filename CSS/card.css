@@ -1,18 +1,13 @@
 @import url("base/reset.css");
 @import url("base/color.css");
 @import url("base/nav.css");
-.card-body {
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
-    width: 90%;
-}
-
 .card-container {
     display: flex;
     flex-direction: column;
-    width: 13rem;
+    width: 18rem;
     background-color: var(--white);
-    margin: 1% 5% 1% 5%;
-    font-family: monospace;
+    margin: 1rem;
+    font-family: monster;
     border-radius: 0.5rem;
     position: relative;
 }
@@ -24,66 +19,39 @@
     border-radius: 0.5rem;
 }
 
-.card-badge {
-    position: inherit;
-    bottom: -2.2rem;
-    left: -3.2rem;
-    color: var(--red);
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: var(--tertiary);
-    padding: 0 10px;
-    display: inline-block;
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
-}
-
-.card-dismiss {
-    position: inherit;
-    right: -5.5rem;
-    bottom: -1.5rem;
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
-    background-color: var(--dark-primary-text);
-    color: var(--primary);
-}
-
 .dismiss-card-container {
+    position: relative;
     opacity: 0.5;
     border: 1px solid var(--black);
 }
 
-.card-btn {
-    width: 12.5rem;
-    padding: 3px 5px;
-    border-radius: 0;
-    margin: 2px 5px 2px 5px;
-    background-color: var(--pink);
-    color: var(--blueviolet);
-    font-size: 1rem;
-    font-family: monospace;
+.card-dismiss {
+    position: inherit;
+    right: -16.5rem;
+    bottom: -1.5rem;
+    float: right;
+    color: var(--red);
 }
 
-.card-btn:hover {
-    color: var(--hotpink);
+.card-badge {
+    position: inherit;
+    bottom: -2.2rem;
+    color: var(--red);
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--tertiary);
+    display: inline-block;
 }
 
 .card-heading {
-    margin-left: -4rem;
+    margin-left: 0.5rem;
     color: var(--tertiary);
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.horizontal-card {
-    width: 18rem;
-}
-
 .horizontal-card-img-handler {
     display: flex;
-}
-
-.card-horizontal-image {
-    height: 15vh;
-    width: 15rem;
 }
 
 .horizontal-card-text {
@@ -95,31 +63,27 @@
     margin-left: 0.3rem;
 }
 
-.horizontal-card-footer {
-    justify-content: space-between;
-    margin: 0 10px;
-}
-
 .card-subtext {
     color: var(--dark-secondary);
-    margin: 2px 10px;
+    margin: 0.5rem;
     text-align: left;
     font-weight: 800;
 }
 
 .text-on-card {
-    margin: -4rem 0rem 2rem 1rem;
+    margin: -4rem 0rem 2rem 0.5rem;
 }
 
 .brand-name {
-    margin-left: -3.8rem;
     color: var(--danger-bg-color);
-    font-weight: 800;
+    font-weight: 400;
+    margin-left: 1rem;
 }
 
 .card-icon {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .card-icon label {
@@ -136,10 +100,7 @@
     color: var(--blueviolet);
 }
 
+.card-icon label:hover,
 .card-icon i:hover {
-    color: var(--danger-bg-color);
-}
-
-.card-icon label:hover {
     color: var(--danger-bg-color);
 }
