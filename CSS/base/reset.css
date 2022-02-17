@@ -13,12 +13,14 @@ html {
 
 button {
     border: none;
-    padding: 0.3rem 1rem 0.3rem 1rem;
+    padding: 0.3rem 0.5rem;
     font-size: 1.2rem;
     border-radius: 0.2rem;
     margin: 0.5rem;
     display: inline-block;
     cursor: pointer;
+    font-family: monster;
+    font-weight: 600;
 }
 
 .btn-outline {
@@ -87,7 +89,7 @@ button {
 }
 
 .headings {
-    margin: 1rem 0rem 0rem 0rem;
+    margin: 0.5rem 0rem 0rem 0rem;
     font-size: 2rem;
     font-weight: bold;
     color: var(--primary);
@@ -102,7 +104,7 @@ button {
 
 .paragraphs {
     font-size: 1.3rem;
-    width: 90%;
+    width: 70%;
     text-align: center;
     margin: 1rem 0rem;
     font-weight: bold;
@@ -251,19 +253,6 @@ li {
     list-style: none;
 }
 
-.iframe-parent_class {
-    overflow: hidden;
-    width: 101%;
-    max-height: 40vh;
-    border: none;
-    overflow-x: hidden;
-}
-
-.iframe-child_class {
-    overflow: auto;
-    margin: 0.7rem;
-}
-
 .flex {
     display: flex;
 }
@@ -276,6 +265,12 @@ li {
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-col-center {
@@ -328,6 +323,20 @@ li {
     justify-content: center;
 }
 
+iframe {
+    max-width: 60%;
+    margin: 1rem 0 0.5rem 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 0;
+    max-height: 15rem;
+}
+
+iframe::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 @media screen and (max-width:992px) {
     .paragraphs {
         font-size: 1.1rem;
@@ -338,5 +347,11 @@ li {
     }
     .sub-headings {
         font-size: 1.1rem;
+    }
+    iframe {
+        max-width: 90%;
+    }
+    .paragraphs {
+        width: 90%;
     }
 }
