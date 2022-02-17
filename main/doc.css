@@ -39,6 +39,7 @@ body::-webkit-scrollbar {
 .sidebar-link {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 20rem;
     background-color: var(--nav-color);
     margin-top: 3.5rem;

@@ -3,7 +3,7 @@
 @import url("base/nav.css");
 .default-button-container {
     border: 1px solid var(--dark-primary);
-    padding: 2rem 10% 2rem 10%;
+    padding: 2rem 10%;
     border-radius: 1rem;
     margin: 1rem;
 }

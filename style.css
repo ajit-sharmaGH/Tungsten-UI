@@ -65,7 +65,7 @@
 }
 
 .landing-page-paragraph {
-    background-color: #000001ab;
+    background-color: var(--transparent-black);
     border-radius: 0.5rem;
     width: 60%;
     font-size: 1.409rem;

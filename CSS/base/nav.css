@@ -45,16 +45,22 @@
 
 @media screen and (max-width:600px) {
     .navlink {
-        margin: 0rem 0rem 0rem 2rem;
+        margin-right: 0.5rem;
         display: flex;
         flex-wrap: wrap;
     }
     .navlink a {
         font-weight: normal;
-        padding: 2px 10px 2px 10px;
+        padding: 2px 8px;
         border-top: 2px solid var(--tertiary);
     }
     .logo {
         margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navlink a {
+        margin-right: 5px;
     }
 }

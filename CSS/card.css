@@ -54,6 +54,10 @@
     display: flex;
 }
 
+.card-horizontal-image {
+    border-top-left-radius: 0.5rem;
+}
+
 .horizontal-card-text {
     display: flex;
     flex-direction: column;
