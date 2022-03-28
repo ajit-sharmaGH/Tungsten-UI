@@ -1,0 +1,33 @@
+.text-container {
+    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    width: 70%;
+    color: var(--white);
+}
+
+.heading-1 {
+    font-size: 2em;
+}
+
+.heading-2 {
+    font-size: 1.5em;
+}
+
+.heading-3 {
+    font-size: 1.17em
+}
+
+.heading-4 {
+    font-size: 1em
+}
+
+.heading-5 {
+    font-size: 0.83em
+}
+
+.heading-6 {
+    font-size: 0.75em;
+}
+
+.gray-text {
+    color: var(--gray);
+}
