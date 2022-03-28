@@ -46,3 +46,9 @@
     font-size: 1.5rem;
     font-weight: 800;
 }
+
+@media screen and (max-width:992px) {
+    .modal-section {
+        width: 90%;
+    }
+}
