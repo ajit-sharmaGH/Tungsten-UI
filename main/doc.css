@@ -13,6 +13,7 @@
 @import url("../CSS/navbar.css");
 @import url("../CSS/install.css");
 @import url("../CSS/text.css");
+@import url("../CSS/modal.css");
 body {
     font-family: sans-serif;
     box-sizing: border-box;

@@ -1,0 +1,48 @@
+.modalShowingBtn,
+.modal-container {
+    width: 18rem;
+    background-color: var(--white);
+    border: 1px solid var(--dark-primary);
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.modal-container>h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.modal-container>label {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--barcelona-red);
+    cursor: pointer;
+}
+
+.modal-btn {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.modal-btn>button {
+    background-color: var(--gray);
+    margin-left: 1rem;
+}
+
+.modal-section {
+    width: 70%;
+    border: 2px solid var(--gray);
+    min-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalSectionText {
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
