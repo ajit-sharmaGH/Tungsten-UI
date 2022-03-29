@@ -180,10 +180,10 @@
                 services provide notification services via email or SMS.
             </p>
             <div class="button-alert flex-wrap-center">
-                <button class="alert-btn btn-primary">Show Error</button>
-                <button class="alert-btn btn-secondary">Show Success</button>
-                <button class="alert-btn btn-tertiary">Show Warning</button>
-                <button class="alert-btn btn-background">Show Info</button>
+                <button class="alert-btn btn-primary show_error-button">Show Error</button>
+                <button class="alert-btn btn-secondary show_success-button">Show Success</button>
+                <button class="alert-btn btn-tertiary show_warning-button">Show Warning</button>
+                <button class="alert-btn btn-background show_info-button">Show Info</button>
             </div>
             <iframe src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=13px&lh=150%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button-alert%2520flex-wrap-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2520btn-primary%2522%253EShow%2520Error%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520Success%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2520btn-tertiary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520Warning%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2520btn-background%2522%253EShow%2520Info%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin"></iframe>
@@ -196,6 +196,16 @@
                 <span>A&nbsp;Success&nbsp;Alert&nbsp;&nbsp;</span>
                 <i class="fas cross-icon fa-times"></i>
             </p>
+            <p class="text-icon-success-alert icon-alert pop_alerts-success">
+                <i class="fas success-icon fa-check-circle"></i>
+                <span>A&nbsp;Success&nbsp;Alert&nbsp;&nbsp;</span>
+                <i class="fas cross-icon fa-times success_cross-icon"></i>
+            </p>
+            <p class="icon-alert pop_alerts-error">
+                <i class="fas success-icon fa-check-circle"></i>
+                <span>&nbsp;This&nbsp;Shows&nbsp;&nbsp;Error</span>
+                <i class="fas cross-icon fa-times success_cross-icon"></i>
+            </p>
             <iframe src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=13px&lh=150%25&si=false&es=2x&wm=false&code=%2520%253Cp%2520class%253D%2522text-icon-success-alert%2520icon-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520success-icon%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EA%2526nbsp%253BSuccess%2526nbsp%253BAlert%2526nbsp%253B%2526nbsp%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520cross-icon%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E"
                 sandbox="allow-scripts allow-same-origin"></iframe>
             <p class="text-icon-red-alert icon-alert">
@@ -203,6 +213,18 @@
                 <span> A&nbsp;Warning&nbsp;Alert&nbsp;&nbsp;</span>
                 <i class="fas cross-icon fa-times"></i>
             </p>
+            <p class="text-icon-red-alert icon-alert pop_alerts-warning">
+                <i class="fas danger-icon fa-exclamation-circle"></i>
+                <span> A&nbsp;Warning&nbsp;Alert&nbsp;&nbsp;</span>
+                <i class="fas cross-icon fa-times warning_cross-icon"></i>
+            </p>
+
+            <p class="icon-alert pop_alerts-info">
+                <i class="fas danger-icon fa-exclamation-circle"></i>
+                <span> &nbsp;This&nbsp;Shows&nbsp;&nbsp;Info</span>
+                <i class="fas cross-icon fa-times warning_cross-icon"></i>
+            </p>
+
             <iframe src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=htmlmixed&width=677.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cp%2520class%253D%2522text-icon-red-alert%2520icon-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520danger-icon%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2520A%2526nbsp%253BWarning%2526nbsp%253BAlert%2526nbsp%253B%2526nbsp%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520cross-icon%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E"
                 sandbox="allow-scripts allow-same-origin"></iframe>
             <!--end of the alert container-->
@@ -607,6 +629,7 @@
         </div>
     </div>
     <script src="../JavaScript/modal.js"></script>
+    <script src="../JavaScript/alert.js"></script>
 </body>
 
 </html>
