@@ -49,16 +49,16 @@ alert buttons*/
     position: absolute;
     z-index: 5;
     font-size: 1.5rem;
-    transition: 0.8s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .pop_alerts-warning {
-    top: 4rem;
+    top: -5rem;
     right: 2rem;
 }
 
 .pop_alerts-error {
-    top: 8rem;
+    top: -5rem;
     right: 2rem;
     background-color: var(--red);
     border-radius: 0.5rem;
@@ -66,7 +66,7 @@ alert buttons*/
 }
 
 .pop_alerts-info {
-    top: 5rem;
+    top: -5rem;
     left: 5rem;
     background-color: var(--blueviolet);
     color: var(--blue);
@@ -74,7 +74,7 @@ alert buttons*/
 }
 
 .pop_alerts-success {
-    top: 8rem;
+    top: -5rem;
     left: 5rem;
 }
 
@@ -86,20 +86,14 @@ alert buttons*/
     .button-alert {
         width: 90%;
     }
-    .pop_alerts-warning {
-        top: 4rem;
-        right: 1rem;
-    }
+    .pop_alerts-info,
     .pop_alerts-success {
-        top: 8rem;
+        top: -5rem;
         left: 1rem;
     }
-    .pop_alerts-info {
-        top: 5rem;
-        left: 1rem;
-    }
+    .pop_alerts-warning,
     .pop_alerts-error {
-        top: 8rem;
+        top: -5rem;
         right: 1rem;
     }
     .pop_alerts-error,
