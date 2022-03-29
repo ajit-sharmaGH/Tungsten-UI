@@ -31,3 +31,9 @@
 .gray-text {
     color: var(--gray);
 }
+
+@media screen and (max-width:992px) {
+    .text-container {
+        width: 90%;
+    }
+}
