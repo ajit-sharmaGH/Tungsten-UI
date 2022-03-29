@@ -2,7 +2,6 @@
 .modal-container {
     width: 18rem;
     background-color: var(--white);
-    border: 1px solid var(--dark-primary);
     position: relative;
     border-radius: 0.5rem;
 }
@@ -34,7 +33,7 @@
 
 .modal-section {
     width: 70%;
-    border: 2px solid var(--gray);
+    border: 1px solid var(--dark-primary);
     min-height: 20rem;
     display: flex;
     align-items: center;
