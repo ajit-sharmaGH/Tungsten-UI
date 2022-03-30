@@ -15,6 +15,7 @@
 @import url("../CSS/text.css");
 @import url("../CSS/modal.css");
 @import url("../CSS/rating.css");
+@import url("../CSS/grid.css");
 body {
     font-family: sans-serif;
     box-sizing: border-box;
