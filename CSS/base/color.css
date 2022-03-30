@@ -21,7 +21,6 @@
     --danger-bg-color: #ff9999;
     --logo-color: #7f7fff;
     --nav-color: #333;
-    --iframe-bg-color: rgba(171, 184, 195, 1);
     --background-color: antiquewhite;
     --dark: grey;
     --blueviolet: blueviolet;
@@ -54,4 +53,5 @@
     --alert-success-text: #1b7052;
     --alert-warning: #ffe7c5;
     --alert-warning-text: #ff9204;
+    --iframe-bg-color: #161616
 }

@@ -2,7 +2,7 @@
 @import url("base/color.css");
 @import url("base/nav.css");
 .default-button-container {
-    border: 1px solid var(--dark-primary);
+    box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
     padding: 2rem 10%;
     border-radius: 1rem;
     margin: 1rem;

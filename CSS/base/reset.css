@@ -105,14 +105,13 @@ button {
 
 .paragraphs {
     font-size: 1.3rem;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 1rem 0rem;
     font-weight: bold;
-    /* border: 1px solid var(--dark-primary-text);
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text); */
     padding: 0.5rem 1rem;
-    color: var(--secondary-bg-color);
+    color: var(--primary-bg-color);
+    border: 1px solid var(--dark-tertiary);
 }
 
 .text-icon-red-alert {
@@ -325,12 +324,13 @@ li {
 }
 
 iframe {
-    max-width: 60%;
+    max-width: 80%;
     margin: 1rem 0 0.5rem 0;
     border-radius: 1rem;
     overflow: hidden;
     border: 0;
-    max-height: 15rem;
+    min-height: 12rem;
+    background-color: var(--iframe-bg-color);
 }
 
 iframe::-webkit-scrollbar {

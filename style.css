@@ -58,6 +58,7 @@
     cursor: pointer;
     display: inline-block;
     border: 3px solid var(--red);
+    font-size: 1.1rem;
 }
 
 .documentation-link:hover {
