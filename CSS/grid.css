@@ -3,10 +3,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     min-height: 15rem;
-    min-width: 70%;
+    min-width: 80%;
     grid-gap: 0.5rem;
     background-color: var(--light-blue);
     padding: 0.5rem;
+    box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
 }
 
 .grid-children {
@@ -20,7 +21,7 @@
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
     min-height: 10rem;
-    min-width: 70%;
+    min-width: 80%;
     grid-gap: 0.5rem;
     background-color: var(--light-blue);
     padding: 0.5rem;
@@ -31,7 +32,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     min-height: 20rem;
-    min-width: 70%;
+    min-width: 80%;
     grid-gap: 0.5rem;
     background-color: var(--light-blue);
     padding: 0.5rem;
@@ -42,6 +43,9 @@
         min-width: 90%;
     }
     .grid-container-75-25 {
-        min-width: 90%;
+        max-width: 90%;
+    }
+    .grid-container-three-items {
+        max-width: 90%;
     }
 }

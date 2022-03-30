@@ -1,7 +1,7 @@
 .rating-container {
     min-height: 8rem;
-    border: 1px solid var(--dark-primary);
-    width: 70%;
+    box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
+    width: 80%;
     direction: rtl;
 }
 

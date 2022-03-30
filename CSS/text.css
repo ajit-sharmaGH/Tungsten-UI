@@ -1,6 +1,6 @@
 .text-container {
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
-    width: 70%;
+    box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
+    width: 80%;
     color: var(--white);
 }
 

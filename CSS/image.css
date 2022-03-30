@@ -2,8 +2,8 @@
 @import url("base/color.css");
 @import url("base/nav.css");
 .image-container {
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
-    width: 70%;
+    box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
