@@ -7,10 +7,10 @@ common sub-child of all
 alert buttons*/
 
 .button-alert {
-    box-shadow: 1px 1px 2px 2px var(--dark-primary-text);
+    box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
     padding: 2rem 10% 2rem 10%;
     border-radius: 1rem;
-    width: 70%;
+    width: 80%;
 }
 
 .alert-btn {
@@ -42,6 +42,42 @@ alert buttons*/
     margin: 0.7rem 1rem 1rem 0rem;
 }
 
+.pop_alerts-error,
+.pop_alerts-info,
+.pop_alerts-warning,
+.pop_alerts-success {
+    position: absolute;
+    z-index: 5;
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.pop_alerts-warning {
+    top: -5rem;
+    right: 2rem;
+}
+
+.pop_alerts-error {
+    top: -5rem;
+    right: 2rem;
+    background-color: var(--red);
+    border-radius: 0.5rem;
+    color: var(--gray);
+}
+
+.pop_alerts-info {
+    top: -5rem;
+    left: 5rem;
+    background-color: var(--blueviolet);
+    color: var(--blue);
+    border-radius: 0.5rem;
+}
+
+.pop_alerts-success {
+    top: -5rem;
+    left: 5rem;
+}
+
 @media screen and (max-width:868px) {
     .alert-btn {
         display: block;
@@ -49,5 +85,21 @@ alert buttons*/
     }
     .button-alert {
         width: 90%;
+    }
+    .pop_alerts-info,
+    .pop_alerts-success {
+        top: -5rem;
+        left: 1rem;
+    }
+    .pop_alerts-warning,
+    .pop_alerts-error {
+        top: -5rem;
+        right: 1rem;
+    }
+    .pop_alerts-error,
+    .pop_alerts-info,
+    .pop_alerts-warning,
+    .pop_alerts-success {
+        font-size: 1rem;
     }
 }
