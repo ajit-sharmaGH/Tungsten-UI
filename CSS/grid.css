@@ -40,12 +40,12 @@
 
 @media screen and (max-width:992px) {
     .grid-container-50-50 {
-        min-width: 90%;
+        width: 90%;
     }
     .grid-container-75-25 {
-        max-width: 90%;
+        width: 90%;
     }
     .grid-container-three-items {
-        max-width: 90%;
+        width: 90%;
     }
 }

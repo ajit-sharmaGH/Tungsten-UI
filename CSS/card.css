@@ -26,21 +26,21 @@
 }
 
 .card-dismiss {
-    position: inherit;
-    right: -16.5rem;
-    bottom: -1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
     float: right;
     color: var(--red);
 }
 
 .card-badge {
-    position: inherit;
-    bottom: -2.2rem;
+    position: absolute;
+    top: 1rem;
     color: var(--red);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    padding: 0.2rem;
     background-color: var(--tertiary);
-    display: inline-block;
 }
 
 .card-heading {
@@ -107,4 +107,53 @@
 .card-icon label:hover,
 .card-icon i:hover {
     color: var(--danger-bg-color);
+}
+
+.outdated_card {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.card_out-of-stock {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--black);
+    opacity: 1;
+}
+
+.notify-button-stock-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--transparent-black);
+    opacity: 0;
+    transition: opacity 0.5s;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 2px solid var(--black);
+}
+
+.notify-button-stock-card>button {
+    border: 2px solid var(--tertiary);
+    left: 15%;
+    position: relative;
+    top: 60%;
+}
+
+.notify-button-stock-card>button:hover {
+    color: var(--primary);
+}
+
+.notify-button-stock-card:hover {
+    opacity: 1;
+    z-index: 5;
+}
+
+.shadow-card {
+    border: 2px solid var(--dark-primary);
+    box-shadow: 10px 15px 5px 15px var(--dark-tertiary);
 }

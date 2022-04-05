@@ -34,34 +34,34 @@
     }
     
     .sm-avatar-badge {
-        position: inherit;
+        position: absolute;
         background-color: var(--green);
         padding: 7px;
         border-radius: 50%;
-        top: -1rem;
-        left: -3rem;
+        bottom: 1.5rem;
+        right: 2rem;
         border: 1px solid var(--red);
         display: inline-block;
     }
     
     .lg-avatar-badge {
-        position: inherit;
+        position: absolute;
         background-color: var(--red);
         padding: 7px;
         border-radius: 50%;
-        top: -1rem;
-        left: -3.8rem;
+        bottom: 1.5rem;
+        right: 2rem;
         border: 2px solid var(--green);
         display: inline-block;
     }
     
     .lgr-avatar-badge {
-        position: inherit;
+        position: absolute;
         background-color: var(--blueviolet);
         padding: 7px;
         border-radius: 50%;
-        top: -1rem;
-        left: -4.5rem;
+        bottom: 1.5rem;
+        right: 3rem;
         border: 2px solid var(--green);
         display: inline-block;
     }
