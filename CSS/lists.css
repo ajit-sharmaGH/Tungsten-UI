@@ -4,13 +4,23 @@
 .list-container {
     box-shadow: 1px 1px 2px 2px var(--dark-tertiary);
     width: 80%;
+    padding: 1rem;
 }
 
 .list-container ul li,
 .list-container ol li {
     margin: 1rem 2rem;
-    color: var(--hotpink);
-    font-weight: 600;
+    color: var(--black);
+    font-weight: 800;
+}
+
+.roman,
+.disc,
+.lower-alpha,
+.upper-alpha {
+    background-color: var(--white);
+    margin: 2rem;
+    font-size: 1.2rem;
 }
 
 .roman li {
@@ -27,6 +37,48 @@
 
 .disc li {
     list-style-type: disc;
+}
+
+.stacked-list {
+    background-color: var(--secondary-bg-color);
+    padding: 0.2rem 1rem 0 0rem;
+    border-radius: 0.2rem;
+    margin: 0.2rem 0 0.1rem;
+    max-width: 25rem;
+}
+
+.stacked-list>span>p {
+    margin: 0 1.2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.stacked-list-img>img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-size: cover;
+    border: 1px solid var(--yellow);
+}
+
+.stacked-list-img {
+    position: relative;
+}
+
+.stacked-list-badge {
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--green);
+    bottom: 15%;
+    right: 10%;
+    border: 1px solid var(--red);
+}
+
+.stacked-list-description {
+    margin-left: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 @media screen and (max-width:992px) {
