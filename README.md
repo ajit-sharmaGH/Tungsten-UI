@@ -1,4 +1,32 @@
  This is the `temp-dev` branch hosting for remaining p1 features of Tungsten-UI : https://temp-dev.netlify.app
+ 
+ # Remaining p1 features of the component library : --
+ # Text Utilities
+ - All types of headings with H1 to H6 element tags
+ - small text
+ - gray text
+ - centered text
+  
+  ![image](https://user-images.githubusercontent.com/80311905/161911345-08537d01-b222-4e1e-93e1-404bde4de5dd.png)
+  ![image](https://user-images.githubusercontent.com/80311905/161912007-defcca46-ab2c-4060-b310-6f1af04b8617.png)
+
+  # MOdal 
+ - Basic Modal functional
+  ![image](https://user-images.githubusercontent.com/80311905/161911488-91d50e34-b6a8-4351-b5ca-39b5eb080ec2.png)
+ # Rating 
+ - Five start rating made using Html and css property only
+ - On hover it changes its color and to rate just hit over it 
+  ![image](https://user-images.githubusercontent.com/80311905/161911630-ab9b21ca-e6f5-4f3a-b128-340a97e5736d.png)
+ # Grid
+ - 50-50 grid styling 
+ - 75-25 grid styling 
+ - three items in rows and columns grid styling
+  ![image](https://user-images.githubusercontent.com/80311905/161911692-1c849467-579a-47c4-9f12-786fa5a1eb70.png)
+ - Grids 75 25
+  ![image](https://user-images.githubusercontent.com/80311905/161911795-e70b6b21-1e50-4a78-ac4e-89bd9d001c1c.png)
+ - Grids having three items
+  ![image](https://user-images.githubusercontent.com/80311905/161911861-b7009646-65c5-432c-a66f-c440135ac0dc.png)
+
 # Tungsten-UI
 ![image](https://user-images.githubusercontent.com/80311905/154893574-32de5a7d-1ef3-4527-b890-dc3286320931.png)
 
@@ -27,6 +55,10 @@ This project contains almost ten components which could be easily created by sel
  - {Snackbar}
  - {Lists}
  - {Navbar}
+ - {Text Utilities}
+ - {Modal}
+ - {Rating}
+ - {Grids}
  
  # Avatar
  It is used as a profile picture>>>
@@ -94,3 +126,18 @@ Lists are used to show the number of things which we want to represent in thr fo
 # Navbar
 Navbar is used to represent a particular message about the whole view of sites, it includes some important links >>
 - Basic Desktop type navbar
+# Text Utilities
+- All types of headings with H1 to H6 element tags
+- small text
+- gray text
+- centered text
+# MOdal 
+- Basic Modal functional
+# Rating 
+- Five start rating made using Html and css property only
+- On hover it changes its color and to rate just hit over it 
+# Grid
+- 50-50 grid styling 
+- 75-25 grid styling 
+- three items in rows and columns grid styling
+
